@@ -1,0 +1,35 @@
+@use '../abstracts/abstracts' as abstracts;
+
+.container_article {
+    @include abstracts.flexbox('row'){
+        gap: 100px;
+    }
+    background: white;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    margin-left: 170px;
+    max-width: 55%;
+    position:relative;
+    top:40px ;
+    left: -50px;
+    article {
+        @include abstracts.flexbox(column){
+            font-size: 10px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            gap: 10px;
+            
+    }
+       img {
+        width: 20px;
+        height: 20px;
+       }
+       .cuadro {
+        position: relative;
+       }
+       .in {
+        position: absolute;
+       }
+    } 
+}
+

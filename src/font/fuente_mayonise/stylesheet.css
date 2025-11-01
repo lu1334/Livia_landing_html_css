@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Mayonice';
+    src: url('/CSS/tipografias/fuente_mayonise/Mayonice.eot');
+    src: url('/CSS/tipografias/fuente_mayonise/Mayonice.eot?#iefix') format('embedded-opentype'),
+        url('/CSS/tipografias/fuente_mayonise/Mayonice.woff2') format('woff2'),
+        url('/CSS/tipografias/fuente_mayonise/Mayonice.woff') format('woff'),
+        url('/CSS/tipografias/fuente_mayonise/Mayonice.ttf') format('truetype'),
+        url('/CSS/tipografias/fuente_mayonise/Mayonice.svg#Mayonice') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+    font-family:'Mayonice' ;
+}
+

@@ -1,0 +1,39 @@
+@use '../abstracts/abstracts'as abstracts;
+
+.container_hero {
+    margin-top: 20px;
+    margin-left: 160px;
+
+    h1{
+        color: abstracts.$color_blanco;
+        font-size: 15px;
+        font-weight: 100;
+        font-family: abstracts.$fuente_poppin;
+    }
+    .hero {
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: abstracts.$color_blanco;
+    }
+    .p2 {
+        @extend .hero;
+        font-size: 15px;
+        font-weight: 100;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    a {
+        background: abstracts.$fondo_principal;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+        font-family: abstracts.$fuente_poppin;
+        font-size: 10px;
+        
+    &::after {
+        content:'➡️';
+        margin-left: 5px
+    }
+    }
+        
+}

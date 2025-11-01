@@ -1,0 +1,30 @@
+@use '../abstracts/abstracts' as mixins;
+@use '../abstracts/variables' as variables;
+
+ul {
+    @include mixins.flexbox('row'){
+        margin-top: 5px;
+        gap: 20px;
+        position: relative;
+    li{
+        font-size: 10px;
+        list-style: none;
+        color: variables.$color_blanco;
+        font-family: variables.$fuente_poppin;
+    }
+
+    }
+}
+
+.a_header {
+    color: variables.$color_blanco;
+    position: absolute;
+    right:300px;
+    top:150px;
+    background: variables.$fondo_violeta;
+    font-size: 8px;
+    padding:5px 10px;
+    text-decoration: none;
+    font-family: variables.$fuente_poppin;
+    
+}

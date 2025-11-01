@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Amigo';
+    src: url('../fuente_amigo/Amigo-Regular.eot');
+    src: url('../fuente_amigo/Amigo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../Amigo-Regular.woff2') format('woff2'),
+        url('../Amigo-Regular.woff') format('woff'),
+        url('../fuente_amigo/Amigo-Regular.ttf') format('truetype'),
+        url('../fuente_amigo/Amigo-Regular.svg#Amigo-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amigo Rustique';
+    src: url('/CSS/tipografias/fuente_amigo/AmigoRustique-Regular.eot');
+    src: url('/CSS/tipografias/fuente_amigo/AmigoRustique-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/CSS/tipografias/fuente_amigo/AmigoRustique-Regular.woff2') format('woff2'),
+        url('/CSS/tipografias/fuente_amigo/AmigoRustique-Regular.woff') format('woff'),
+        url('/CSS/tipografias/fuente_amigo/AmigoRustique-Regular.ttf') format('truetype'),
+        url('/CSS/tipografias/fuente_amigo/AmigoRustique-Regular.svg#AmigoRustique-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size:x-large;
+}
+
+@font-face {
+    font-family: 'Mayonice';
+    src: url('/CSS/tipografias/fuente_mayonise/Mayonice.eot');
+    src: url('/CSS/tipografias/fuente_mayonise/Mayonice.eot?#iefix') format('embedded-opentype'),
+        url('/CSS/tipografias/fuente_mayonise/Mayonice.woff2') format('woff2'),
+        url('/CSS/tipografias/fuente_mayonise/Mayonice.woff') format('woff'),
+        url('/CSS/tipografias/fuente_mayonise/Mayonice.ttf') format('truetype'),
+        url('/CSS/tipografias/fuente_mayonise/Mayonice.svg#Mayonice') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('../fuente_anonima/NotoSansCondensed-Black.eot');
+    src: url('../fuente_anonima/NotoSansCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fuente_anonimas/NotoSansCondensed-Black.woff2') format('woff2'),
+        url('../fuente_anonimas/NotoSansCondensed-Black.woff') format('woff'),
+        url('../fuente_anonimas/NotoSansCondensed-Black.ttf') format('truetype'),
+        url('../fuente_anonimas/NotoSansCondensed-Black.svg#NotoSansCondensed-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+h1 {
+    font-family:'Amigo' ;
+    
+}
+
+h2 {
+    font-family:'Amigo Rustique' ;
+}
+
+p {
+    font-family:'Amigo';
+}

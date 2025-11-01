@@ -1,0 +1,47 @@
+@use '../abstracts/abstracts' as mixins;
+@use '../abstracts/variables' as variables;
+
+.cont_principal {
+   @include mixins.flexbox(column){
+    justify-content: center;
+    
+   }
+   width: 100%;
+   height: 100vh;
+   background: rgba(245, 245, 245, 1);
+   background-image: url(/public/jovenes_bici.png);
+   background-size: 500px;
+   background-repeat: no-repeat;
+   background-position:right 20% top;
+  
+   .sub_container {
+       position: relative;
+       top: 40px;
+       left: 30px;
+       max-width:50%;
+       height:400px;
+       background: variables.$fondo_violeta;
+       header {
+           @include mixins.flexbox('row'){
+               justify-content: space-evenly;
+               padding-top: 20px;
+           }
+          p{
+             font-size:20px;
+             
+              .liv{
+                  color:variables.$color_blanco;
+                  margin-left: 30px;
+              }
+              .ia {
+                  color: variables.$color_azul;
+              }
+              .punto {
+                color: white;
+              }
+          }
+   
+        }
+       
+   }
+}
