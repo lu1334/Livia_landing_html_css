@@ -1,7 +1,7 @@
 # 💼 Livia Landing (HTML & CSS)
 
-Hola 👋 soy **Sandy**, y este es uno de mis primeros proyectos de **maquetación con HTML y CSS**.  
-La idea fue recrear una landing page con estilo **corporativo moderno**, enfocada en practicar estructura semántica y diseño visual adaptable.
+Hola 👋 soy **Sandy** y con este proyecto seguí explorando la maquetación con **HTML y CSS**.  
+Quise replicar una landing inspirada en marcas tech para seguir practicando estructura semántica y detalles visuales consistentes.
 
 ---
 
@@ -19,10 +19,10 @@ La idea fue recrear una landing page con estilo **corporativo moderno**, enfocad
 ---
 
 ## 🌐 Vista previa
-[Ver demo](https://archesky-landing-html-css.vercel.app)
+[Ver demo]()
 
 ---
 
 ## 💬 Notas personales
-Este proyecto representa parte de mi camino de aprendizaje en **HTML y CSS**,  
-reforzando los fundamentos de maquetación y el diseño visual limpio.
+Este trabajo me ayudó a afianzar mis bases en **HTML y CSS**,  
+poniendo atención especial a la composición y al look & feel general.
